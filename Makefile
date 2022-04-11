@@ -11,7 +11,12 @@ gitconfig-include-local:
 submodule-update:
 	git su
 
-start: gitconfig-include-local submodule-update
+.ONESHELL:
+install-diagnostic-ls:
+	cd tools
+	npm install
+
+start: gitconfig-include-local submodule-update install-diagnostic-ls
 
 check-requirements:
 	$(DIR)/.config/bin/check-requirements

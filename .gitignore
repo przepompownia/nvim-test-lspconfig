@@ -3,4 +3,4 @@
 /.config/vim/.viminfo
 /.config/vim/viminfo
 /.nvimlog
-/tools/
+/tools/node_modules/
