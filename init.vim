@@ -5,9 +5,7 @@ let &runtimepath = g:initialVimDirectory.','.&runtimepath.','.g:initialVimDirect
 let &packpath = &runtimepath
 
 if has('nvim')
-  packadd! plenary.nvim
   packadd! nvim-lspconfig
-  packadd! null-ls.nvim
 endif
 
 let s:vimrc_per_host = g:initialVimDirectory . '/' . 'vimrc_per_host.vim'
