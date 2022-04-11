@@ -1,5 +1,5 @@
 ## Goal
--
+- show nonexisting buffer problem for null-ls
 
 ## Install and configure extensions
 - Use nightly/master version of neovim
@@ -7,4 +7,4 @@
 - Run `make start` to configure local git aliases, then fetch, install and prepare extensions
 
 ## Run test
-- Run `make long-line-hover`
+- Run `make nonexisting-buffer`

@@ -13,8 +13,8 @@ submodule-update:
 
 start: gitconfig-include-local submodule-update
 
-nonexisting-buffer:
-	$(nvim) -S test/01-nonexisting-buffer/run.lua
-
 check-requirements:
 	$(DIR)/.config/bin/check-requirements
+
+nonexisting-buffer:
+	$(DIR)/bin/$(nvim) -S test/01-nonexisting-buffer/run.lua
