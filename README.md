@@ -1,5 +1,5 @@
 ## Goal
-- show nonexisting buffer problem for null-ls
+- show nonexisting buffer problem for nvim-lspconfig
 
 ## Install and configure extensions
 - Use nightly/master version of neovim
